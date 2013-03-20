@@ -1,0 +1,35 @@
+body
+{
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+div.alert.fixedtop
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 50;
+}
+
+/* Bootstrap Overrides (It can't be perfect) */
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+	z-index: 19;
+}
+
+.table
+{
+	width: auto;
+}
+
+label
+{
+	display: inline;
+}
+
+.dropdown-form
+{
+	padding: 10px;
+}
+
