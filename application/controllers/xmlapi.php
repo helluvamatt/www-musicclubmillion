@@ -7,7 +7,7 @@ class Xmlapi extends CI_Controller
 		parent::__construct();
 		$this->load->model('xml_model');
 		$this->load->model('db_model');
-		//$this->load->model('artists_model');
+		$this->load->model('artist_model');
 		//$this->load->model('albums_model');
 		//$this->load->model('songs_model');
 		//$this->load->model('playlists_model');
